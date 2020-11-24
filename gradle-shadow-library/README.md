@@ -10,6 +10,6 @@ Create the uber-jar with:
 
 Running `./gradlew build` will produce a normal Jar library, as the `java-library` plugin is used. Both Jar files can be found in `./build/libs/`
 
-## Resouces
+## Resources
 
 The [Gradle Shadow Plugin](https://imperceptiblethoughts.com/shadow/introduction/) documentation.

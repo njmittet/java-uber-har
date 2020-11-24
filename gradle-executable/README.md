@@ -14,7 +14,7 @@ Run the application with:
 java -jar build/libs/gradle-executable.jar
 ```
 
-## Resouces
+## Resources
 
 The [Creating "uber" or "fat" JARs](https://docs.gradle.org/current/userguide/working_with_files.html#sec:creating_uber_jar_example) documentation.
 

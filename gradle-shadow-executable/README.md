@@ -31,6 +31,6 @@ build.finalizedBy(shadowJar)
 
 Both Jar files can be found in `./build/libs/`
 
-## Resouces
+## Resources
 
 The [Gradle Shadow Plugin](https://imperceptiblethoughts.com/shadow/introduction/) documentation.
