@@ -1,0 +1,25 @@
+import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
+
+plugins {
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '6.1.0'
+}
+
+repositories {
+    jcenter()
+}
+
+java.sourceCompatibility = JavaVersion.VERSION_11
+
+dependencies {
+    implementation 'com.google.guava:guava:30.0-jre'
+
+    testImplementation(platform('org.junit:junit-bom:5.7.0'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
+}
+
+test {
+    useJUnitPlatform()
+}
+
+mainClassName = 'Application'
