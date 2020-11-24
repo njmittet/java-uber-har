@@ -13,6 +13,9 @@
 *.tar.gz
 *.rar
 
+# Maven
+target
+
 # Gradle
 .gradle
 build
