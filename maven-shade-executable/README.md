@@ -11,5 +11,5 @@ mvn package
 Run the application with:
 
 ```
-$ java -jar target/maven-shade-executable-1.0.jar 
+java -jar target/maven-shade-executable-1.0.jar 
 ```
